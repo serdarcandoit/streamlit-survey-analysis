@@ -14,7 +14,7 @@ st.write("Bu uygulama Stack Overflow 2025 yılı developer survey anketinin veri
 # 1. Veri Yükleme
 @st.cache_data
 def load_data():
-    return pd.read_csv("survey_results_public.csv")
+    return pd.read_csv("survey_results_public.zip")
 
 df = load_data()
 
